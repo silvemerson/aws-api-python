@@ -11,7 +11,7 @@ In your terminal, execute the command below and define your credentials with the
 
 		$ aws configure
 
-2. Start venv
+2. Start [venv](https://docs.python.org/3/library/venv.html)
 
 		$ python -m venv .venv
 
@@ -24,7 +24,7 @@ In your terminal, execute the command below and define your credentials with the
  		$ pip install boto3
 
 
-#References:
+# References:
 
 https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
 
