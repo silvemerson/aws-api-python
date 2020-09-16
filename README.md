@@ -5,25 +5,26 @@
 
 This is a project where we tested the AWS API with the Python programming language.
 
-1. Initial settings
+##1. Initial settings
 
 In your terminal, execute the command below and define your credentials with the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
 
-$ aws configure
+	$ aws configure
 
-2. Start venv
+##2. Start venv
 
 	$ python -m venv .venv
 
 	$ sorce .venv
 
-3. install dependencies pip
+##3. install dependencies pip
 
 	$ pip install requests
+
  	$ pip install boto3
 
 
-References:
+##References:
 
 https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
 
