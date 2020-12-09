@@ -11,8 +11,7 @@ for reservation in response ['Reservations']:
         instance_id = instance['InstanceId']
         instance_name = instance['Tags'][0]['Value']
         instance_state_name = instance['State']['Name']
-        instance_publicip = instance['PublicIpAddress']
-        print(instance_id,instance_name,instance_publicip,instance_state_name)
+        print(instance_id,instance_name,instance_state_name)
         count_instances += 1
 
 print()
