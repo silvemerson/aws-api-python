@@ -15,7 +15,7 @@ In your terminal, execute the command below and define your credentials with the
 
 		$ python -m venv .venv
 
-		$ source .venv
+		$ source .venv/bin/activate
 
 3. install dependencies pip
 
