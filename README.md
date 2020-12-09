@@ -15,7 +15,7 @@ In your terminal, execute the command below and define your credentials with the
 
 		$ python -m venv .venv
 
-		$ sorce .venv
+		$ source .venv
 
 3. install dependencies pip
 
