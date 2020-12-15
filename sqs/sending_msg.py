@@ -2,7 +2,7 @@ import boto3
 
 sqs = boto3.resource('sqs')
 
-fila = input('Insira o nome da fila que será enviado a mensagem: ')
+fila = input('Enter the name of the queue that will be sent the message: ')
 
 queue = sqs.get_queue_by_name(QueueName=fila)
 
