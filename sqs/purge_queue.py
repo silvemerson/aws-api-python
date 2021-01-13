@@ -1,6 +1,7 @@
 import boto3
+import os
 
-client = boto3.client('sqs', region_name='us-east-1')
+sqs = boto3.resource('sqs', region_name= os.getenv('region'))
 
 
 try:

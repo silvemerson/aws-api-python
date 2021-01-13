@@ -1,6 +1,6 @@
 import boto3
-
-client = boto3.client('ec2', region_name='us-east-1')
+import os
+client = boto3.client('ec2', region_name= os.getenv('region'))
 
 try:
         id_instaces = input ("Insira o ID da sua instância: ")

@@ -11,13 +11,18 @@ In your terminal, execute the command below and define your credentials with the
 
 		$ aws configure
 
-2. Start [venv](https://docs.python.org/3/library/venv.html)
+2. Add the environment variables
+
+		$ export region="your-region"
+
+
+3. Start [venv](https://docs.python.org/3/library/venv.html)
 
 		$ python -m venv .venv
 
 		$ source .venv/bin/activate
 
-3. install dependencies pip
+4. install dependencies pip
 
 		$ pip install requests
 
